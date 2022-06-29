@@ -1,0 +1,39 @@
+1) O que são métodos HTTP?
+- São métodos de requisição responsáveis por indicar a ação a ser executada para um dado recurso.
+
+2) Quais são os métodos HTTP mais utilizados atualmente?
+- GET, HEAD, POST, PUT, DELETE, TRACE, OPTIONS e CONNECT.
+
+3) Quais são os 2 principais métodos do HTTP? Qual é a diferença entre eles?
+-São os métodos GET e POST. Enquanto no GET você o utiliza para rever registros no banco de dados, com o POST você insere novos regristos ao banco de dados.
+
+4) O que são requisições HTTP? Quais os tipos?
+- são mensagens enviadas pelo cliente para iniciar uma ação no servidor. Os tipos de requisições, temos o GET, PUT ou POST
+
+5) Como funciona uma requisição?
+- Quando acessamos um site na web o navegador envia uma requisição http para o navegador que entra em seus arquivos e verifica se consegue responder esse pedido, quando encontra, envia os arquivos em forma de resposta, que o navegador interpreta e mostra o site na tela 
+
+6) O que é o método GET?
+-É o metodo que cria uma sequência de consulta e a acrescenta à URL do script no servidor que manipula a solicitação.
+
+7) Qual é o protocolo de internet para transferência segura, com uso de certificado digital, utilizado em sites de compras eletrônicas?
+- O protocolo de transferência de hipertexto seguro
+
+8) Quais os principais métodos de uma requisição REST?
+-GET, PUT, POST, DELETE
+
+9) Qual a diferença entre IPv4 e IPv6?
+- A diferença entre ele é o tamanho de seu armazenamento e o nivel de segurança 
+
+10) Faça um resumo sobre os seguintes protocolos: http, tcp, ip, udp, smtp e ftp.
+http - HTTP é um protocolo de transferência que possibilita que as pessoas que inserem a URL do seu site na Web possam ver os conteúdos e dados que nele existem.
+
+tcp -  É um conjunto de regras padronizadas que permitem que os computadores se comuniquem em uma rede como a internet.
+
+ip - É um número identificador dado ao seu computador, ou roteador, ao conectar-se à rede
+
+udp -  é um protocolo de Internet mais simples e sem conexão, no qual os serviços de verificação e recuperação de erros não são necessários.
+
+smtp - Protocolo de Transferência de Correio Simples é a tecnologia que permite que e-mails sejam enviados de um servidor para outro até serem entregues na caixa de correio.
+
+ftp - é o conjunto de regras que os dispositivos em uma rede TCP/IP usam para transferir arquivos.
