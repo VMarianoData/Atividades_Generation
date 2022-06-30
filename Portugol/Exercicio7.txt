@@ -1,0 +1,27 @@
+programa
+{
+	inclua biblioteca Matematica -->mat
+	
+	funcao inicio()
+	{
+		inteiro a, b, c, d, ee, f, x, y
+		escreva("Diga o valor de A: ")
+		leia(a)
+		escreva("\nDiga o valor de B: ")
+		leia(b)
+		escreva("\nDiga o valor de C: ")
+		leia(c)
+		escreva("\nDiga o valor de D: ")
+		leia(d)
+		escreva("\nDiga o valor de E: ")
+		leia(ee)
+		escreva("\nDiga o valor de F: ")
+		leia(f)
+	     x =((c * ee) - (b * f)) / ((a * ee) - (b * d))
+	     y =((a * f) - (c * d)) / ((a * ee) - (b * d))
+	     limpa()
+	     escreva("O resultado de X é: ", x)
+	     escreva("\nO resultado de y é: ", y)
+		
+	}
+}

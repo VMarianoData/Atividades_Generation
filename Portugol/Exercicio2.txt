@@ -1,0 +1,15 @@
+programa
+{
+	inclua biblioteca Matematica
+	
+	funcao inicio()
+	{
+		inteiro anos, meses, dias, x
+		escreva("Digite a idade em dias:")
+     	leia(x)
+    		anos = x / 365
+   		meses = (x % 365)/ 30
+   		dias = (x % 365)% 30
+   		escreva ("Sua idade é de: ", anos," ano(os) ", meses, " mês(meses) ", dias, " dia(as).")
+	}
+}

@@ -1,0 +1,26 @@
+programa
+{
+	inclua biblioteca Matematica
+	
+	funcao inicio()
+	{
+		inteiro x, y, z, diasAno, diasMes, idadeEmDias
+		escreva("Vamos ver quanto tempo em dias você tem!")
+		escreva("\n\nPrimeiro diga. Quantos anos você tem?: ")
+		leia(x)
+		limpa()
+		escreva("Quantos meses?: ")
+		leia(y)
+		limpa()
+		escreva("Quantos dias?: ")
+		leia(z)
+		limpa()
+		diasAno = 365 * x
+		diasMes = 30 * y
+		idadeEmDias = diasMes + diasAno + z
+		escreva("Sua idade em dias é de " + idadeEmDias + " dias")
+		
+		
+		
+	}
+}

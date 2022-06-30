@@ -1,0 +1,19 @@
+programa
+{
+	inclua biblioteca Matematica -->mat
+	
+	funcao inicio()
+	{
+		real x1, x2, y1, y2, d
+		escreva("Digite seu Px1: ")
+		leia(x1)
+		escreva("Digite seu Px2: ")
+		leia(x2)
+		escreva("Digite seu Py1: ")
+		leia(y1)
+		escreva("Digite seu Py2: ")
+		leia(y2)
+		d = mat.raiz((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1), 2)
+		escreva("A soma dos calculos é: ", d)
+	}
+}

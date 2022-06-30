@@ -1,0 +1,23 @@
+programa
+{
+	inclua biblioteca Matematica
+	
+	funcao inicio()
+	{
+		inteiro A, B, C, D, R, S
+		escreva("digite o Primeiro numero: ")
+		leia(A)
+		limpa()
+		escreva("digite o Segundo numero: ")
+		leia(B)
+		limpa()
+		escreva("digite o Terceiro numero: ")
+		leia(C)
+		limpa()
+		R = (A + B) * (A + B)
+		S = (B + C) * (B + C)
+		D = (R + S)/ 2
+		escreva("Seu resultado é: ", D)
+				
+	}
+}

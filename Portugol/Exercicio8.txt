@@ -1,0 +1,17 @@
+programa
+{
+	inclua biblioteca Matematica -->mat
+	
+	funcao inicio()
+	{
+		inteiro dis, imp, carro, custo
+		escreva("Qual o valor do veiculo?: ")
+		leia(carro)
+		dis = carro * 28/100
+		imp = carro * 45/100
+		custo = carro + dis + imp
+		limpa()
+		escreva("O Custo do carro será de: ", custo)
+		
+	}
+}

@@ -1,0 +1,15 @@
+programa
+{
+	inclua biblioteca Matematica
+	
+	funcao inicio()
+	{
+		inteiro hora, segundo, minuto, x
+		escreva("Digite o tempo em segundos:")
+     	leia(x)
+    		hora = (x / 60)/60
+    		minuto = (x % 3600)/ 60
+   		segundo = (x % 3600) % 60
+   		escreva ("Seu tempo é de: ", hora," hora(as) ", minuto, " minuto(os) ", segundo, " segundo(os).")
+	}
+}

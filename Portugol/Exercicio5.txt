@@ -1,0 +1,18 @@
+programa
+{
+	inclua biblioteca Matematica
+	
+	funcao inicio()
+	{
+		inteiro A, B, C, media
+		escreva("Digite a nota 1:")
+		leia(A)
+		escreva("\nDigite a nota 2:")
+		leia(B)
+		escreva("\nDigite a nota 3:")
+		leia(C)
+		media = (2*A + 3*B + 5*C)/10
+		escreva("Sua media é de: " + media)
+		
+	}
+}
