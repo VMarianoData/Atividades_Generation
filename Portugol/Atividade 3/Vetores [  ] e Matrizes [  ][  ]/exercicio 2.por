@@ -1,4 +1,4 @@
-programa {
+programa {
 	inclua biblioteca Util
 
 	
@@ -35,7 +35,7 @@ programa {
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
  * @POSICAO-CURSOR = 345; 
- * @PONTOS-DE-PARADA = 13;
+ * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {dado, 6, 15, 4};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
