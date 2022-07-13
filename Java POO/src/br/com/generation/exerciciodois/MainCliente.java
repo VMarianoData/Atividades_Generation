@@ -1,4 +1,4 @@
-package br.com.generation.atividadepoodois;
+package br.com.generation.exerciciodois;
 
 public class MainCliente {
 	

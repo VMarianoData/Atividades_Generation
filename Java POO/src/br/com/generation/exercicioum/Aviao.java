@@ -1,4 +1,4 @@
-package br.com.generation.atividadepooum;
+package br.com.generation.exercicioum;
 
 public class Aviao {
 	
