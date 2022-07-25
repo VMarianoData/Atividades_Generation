@@ -2,7 +2,7 @@ package br.com.generation.polimorfismo.exercicioumedois;
 
 public class Preguica extends Animal {
 	
-	public void correr() {
+	public void MovimentoAnimal() {
 		System.out.println("A preguiça corre");
 	}
 	
